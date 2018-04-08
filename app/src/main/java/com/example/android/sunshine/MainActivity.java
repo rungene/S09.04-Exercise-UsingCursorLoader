@@ -211,6 +211,8 @@ public class MainActivity extends AppCompatActivity implements
         } else {
             Log.d(TAG, "Couldn't call " + geoLocation.toString() + ", no receiving apps installed!");
         }
+
+        
     }
 
 //  TODO (21) Refactor onCreateLoader to return a Loader<Cursor>, not Loader<String[]>
